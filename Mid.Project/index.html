@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Personal Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="mainHeader">
+        <div class="header-container flex-nav">
+            <div class="logo">
+                <h1>Jonathan Tulle</h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="hero">
+                <div class="hero-container">
+                    <div class="hero-text">
+                        <div class="hero-tagline">ABOUT ME</div>
+                        <h1>Saya Jonathan Tulle</h1>
+                        <p class="hero-description">
+                                Selamat datang di web portofolio pribadi saya.
+                            <br>Saya adalah mahasiswa yang suka belajar tentang teknologi.
+                            <br>Saat ini saya sangat tertarik belajar yang berkaitan dengan AI dan Big Data.
+                            <br>Impian saya bisa bekerja di bidang AI atau Big Data.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="Contact.html" class="btn-primary">Hubungi Saya →</a>
+                            <a href="Gallery.html" class="btn-secondary">Lihat Karya</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="Image/profile.jpeg" width="400" height="400">
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="section-top-line"></div>
+                <div class="section-title">
+                    <h2>SKILLS</h2>
+                </div>
+                <div class="section-bottom-line"></div>
+
+                <div class="skills-container">
+                    <div class="skill-box" data-skill="Python" 
+                         data-desc="Python adalah bahasa pemrograman tingkat tinggi yang populer untuk pengembangan web, data science, AI, dan automation. Sintaksnya yang sederhana membuatnya ideal untuk pemula sekaligus powerful untuk proyek kompleks.">
+                        Python
+                    </div>
+                    <div class="skill-box" data-skill="C++" 
+                         data-desc="C++ adalah bahasa pemrograman yang powerful untuk pengembangan game, sistem operasi, dan aplikasi performa tinggi. Memberikan kontrol penuh atas manajemen memori dan hardware.">
+                        C++
+                    </div>
+                    <div class="skill-box" data-skill="Basis Data" 
+                         data-desc="Basis Data adalah sistem untuk menyimpan, mengelola, dan mengambil data secara efisien. Mencakup SQL (MySQL, PostgreSQL) dan NoSQL (MongoDB). Fundamental untuk pengembangan aplikasi modern.">
+                        Basis Data
+                    </div>
+                    <div class="skill-box" data-skill="Teknologi Basis Data" 
+                         data-desc="Teknologi Basis Data mencakup optimasi query, indexing, normalisasi data, transaksi ACID, dan manajemen database skala besar untuk performa optimal.">
+                        Teknologi Basis Data
+                    </div>
+                    <div class="skill-box" data-skill="Cloud Computing" 
+                         data-desc="Cloud Computing adalah layanan komputasi (server, storage, database, networking) melalui internet. Mencakup AWS, Google Cloud, dan Azure. Memungkinkan scaling dan fleksibilitas tinggi.">
+                        Cloud Computing
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="section-top-line"></div>
+                <div class="section-title">
+                    <h3>THANK YOU</h3>
+                </div>
+                <div class="section-bottom-line"></div>
+
+                <div class="thankyou-content">
+                    <p>Terima kasih telah mengunjungi website saya.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-title">Website Personal Homepage</div>
+            <div class="copyright">© 2026 Jonathan Tulle. All Rights Reserved.</div>
+            <div class="footer-links">
+                <a href="https://github.com/Jonathan-Tulle" target="_blank">GitHub</a>
+                <a href="mailto:jooffc010101@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="skillModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalSkillTitle">Python</h3>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body" id="modalSkillDesc">
+                <p>Deskripsi skill akan muncul di sini...</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-close" id="modalCloseBtn">Tutup</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

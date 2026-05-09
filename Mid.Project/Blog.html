@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Personal Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="mainHeader">
+        <div class="header-container flex-nav">
+            <div class="logo">
+                <h1>Jonathan Tulle</h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Blog.html" class="active">Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="blog-section">
+                <div id="blogGrid" class="blog-grid">
+                    <!-- Artikel akan di-render secara dinamis oleh JavaScript -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-title">Website Personal Homepage</div>
+            <div class="copyright">© 2026 Jonathan Tulle. All Rights Reserved.</div>
+            <div class="footer-links">
+                <a href="https://github.com/jonathan" target="_blank">GitHub</a>
+                <a href="mailto:jonathan@example.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="articleModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Judul Artikel</h3>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Konten artikel lengkap akan dimasukkan di sini -->
+            </div>
+            <div class="modal-footer">
+                <button class="btn-close-modal" id="modalCloseBtn">Tutup</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

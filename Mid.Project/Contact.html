@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | My Personal Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="mainHeader">
+        <div class="header-container flex-nav">
+            <div class="logo">
+                <h1>Jonathan Tulle</h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section>
+                <div class="section-top-line"></div>
+                <div class="section-title">
+                    <h2>Kontak</h2>
+                    <p>Silahkan hubungi saya untuk bisnis dan kolaborasi melalui email yang tercantum di bawah ini</p>
+                </div>
+                <div class="section-bottom-line"></div>
+            </section>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    <div class="info-item">
+                        <b>Email</b>
+                        <br> <a href="mailto:jooffc010101@gmail.com">jooffc010101@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="social-section">
+                    <h3>Media Sosial</h3>
+                    <div class="social-item">
+                        <b>GitHub</b>
+                        <br> <a href="https://github.com/Jonathan-Tulle" target="_blank">Jonathan-Tulle</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>Kirim Pesan</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subjek</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-title">Website Personal Homepage</div>
+            <div class="copyright">© 2026 Jonathan Tulle. All Rights Reserved.</div>
+            <div class="footer-links">
+                <a href="https://github.com/Jonathan-Tulle" target="_blank">GitHub</a>
+                <a href="mailto:jooffc010101@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
