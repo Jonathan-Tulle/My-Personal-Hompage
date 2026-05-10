@@ -1,7 +1,7 @@
 # Website My Personal Homepage Jonathan Tulle
 Website ini digunakan sebagai website portofolio pribadi yang di dalamnya terdapat 4 halaman (Home,Gallery,Blog, dan Contact). 
 
-Untuk melihat pembaharuan atau update terbaru website My Personal Hompage saya untuk memenuhi tugas Mid.Project-Personal.Homepage silahkan untuk mengunjungi repo baru yang khusus saya buat untuk memenuhi tugas Mid.Project-Personal.Homepage:
+Untuk melihat pembaharuan atau update terbaru website My Personal Hompage saya untuk memenuhi tugas Mid.Project-Personal.Homepage (ada update untuk file html, serta penambahan unsur css dan javascript untuk website My Personal Homepage saya) silahkan untuk mengunjungi repo baru yang khusus saya buat untuk memenuhi tugas Mid.Project-Personal.Homepage:
 
 https://github.com/Jonathan-Tulle/Mid.Project-Personal.Homepage
 
